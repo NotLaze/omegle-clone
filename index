@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Omegle Clone</title>
+  <style>
+    video { width: 45%; margin: 10px; border: 2px solid #333; }
+    body { text-align: center; font-family: Arial; }
+    button { margin: 10px; padding: 10px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Video Chat</h1>
+  <video id="localVideo" autoplay muted></video>
+  <video id="remoteVideo" autoplay></video>
+  <br>
+  <button onclick="startCall()">Start</button>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
